@@ -1,0 +1,13 @@
+name: string_trimmer
+description: Dart package to help with trimming strings to various lengths in various ways.
+version: 0.0.1
+homepage: https://github.com/carzacc/string_trimmer
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

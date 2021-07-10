@@ -7,7 +7,7 @@ library string_trimmer;
 /// use the Unicode ellipsis character U+2026 instead.
 /// Setting [lastChars] to 0 will cause th
 String trim(String inputString, int length,
-    {int lastChars, bool useUnicodeEllipsis}) {
+    {int? lastChars, bool? useUnicodeEllipsis}) {
   if (inputString.length <= length) return inputString;
   if (lastChars != null)
     return "${inputString.substring(0, length - lastChars - 3)}" +
